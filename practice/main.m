@@ -24,6 +24,9 @@ int main(int argc, const char * argv[])
         [fract setNumerator: 5];
         [fract setDenominator: 10];
         
+        NSLog(@"The value of the numerator is %i", fract.numerator);
+        NSLog(@"The value of the denominator is %i", fract.denominator);
+        
         [fract print];
         
     }
