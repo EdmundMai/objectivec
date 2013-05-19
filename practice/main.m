@@ -7,48 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-
-@interface Fraction : NSObject
-
-- (void) print;
-- (void) setNumerator: (int) n;
-- (void) setDenominator: (int) d;
-
-@end
-
-@implementation Fraction
-{
-    int numerator;
-    int denominator;
-}
-
-- (void) print
-{
-    NSLog(@"%i/%i", numerator, denominator);
-}
-
-- (void) setNumerator: (int) n
-{
-    numerator = n;
-}
-
-- (void) setDenominator: (int) n
-{
-    denominator = n;
-}
-
-- (int) numerator
-{
-    return numerator;
-}
-
-- (int) denominator
-{
-    return denominator;
-}
+#import "Fraction.h"
 
 
-@end
+
 
 int main(int argc, const char * argv[])
 {
